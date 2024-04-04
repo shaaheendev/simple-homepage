@@ -171,6 +171,7 @@ input:checked + .slider:before {
   background-color: var(--white);
   border: none;
   display: none;
+  border-radius: 50%;
 }
 
 .main-section {

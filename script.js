@@ -18,7 +18,7 @@ function toggleDarkMode() {
   body.classList.toggle("bg-dark");
   header1.classList.toggle("color-body");
   h6.classList.toggle("color-body");
-  nav.classList.toggle("bg-light-dark");
+  nav.classList.toggle("bg-dark");
   showNavBtn.classList.toggle("bg-dark");
   showNavBtn.classList.toggle("color-body");
   closeNavBtn.classList.toggle("bg-light-dark");
