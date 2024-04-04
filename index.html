@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Homepage</title>
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="res/alarado-icon-homepage.svg" alt="logo" id="logo" />
+      <nav id="nav" class="top-nav">
+        <button class="close-nav-btn" id="close-nav-btn">
+          <img src="res/close-sign.svg" alt="" />
+        </button>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#" class="nav-link">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Recource</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="toggle-container">
+          <label class="switch">
+            <input id="toggle-button" type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </nav>
+
+      <button class="show-nav-btn" id="show-nav-btn">
+        <div class="menu"></div>
+        <div class="menu"></div>
+        <div class="menu"></div>
+      </button>
+    </header>
+
+    <section class="main-section">
+      <div class="img-div">
+        <img src="res/hero-image-simple-homepage.png" alt="" />
+      </div>
+      <div class="text-div">
+        <h6>😎 Simple way to communicate</h6>
+        <h1>Actions for Accessibility in Design</h1>
+        <p>
+          The fastest way to build and deploy websites with resusable
+          components.
+        </p>
+        <div class="links">
+          <button class="get-started-btn" id="get-started-btn">
+            GET STARTED
+          </button>
+          <a href="#">Get live demo</a>
+        </div>
+        <div class="conditions">
+          <span
+            ><img src="res/Done_ring_round_fill.svg" alt="" />No credit card
+            required</span
+          >
+          <span
+            ><img src="res/Done_ring_round_fill.svg" alt="" />No software to
+            install</span
+          >
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
