@@ -218,6 +218,9 @@ p {
 .img-div img {
   width: 100%;
 }
+.conditions {
+  overflow: hidden;
+}
 .conditions span {
   font-size: small;
   color: var(--gray);
