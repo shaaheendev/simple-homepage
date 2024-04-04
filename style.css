@@ -206,7 +206,7 @@ p {
   margin-left: 20px;
 }
 .links a:visited {
-  color: white;
+  color: rgb(113, 170, 251);
 }
 .get-started-btn {
   padding: 10px 20px;
@@ -230,8 +230,21 @@ p {
   margin-bottom: -5px;
   margin-right: 5px;
 }
+@media (max-width: 800px) {
+  .main-section {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .main-section > div {
+    width: 100%;
+    padding: 10px;
+  }
+}
 
 @media (max-width: 600px) {
+  body {
+    padding: 20px 5px;
+  }
   .top-nav {
     width: 0;
     height: 100vh;
@@ -270,18 +283,13 @@ p {
     align-self: flex-end;
   }
   .main-section {
-    padding: 30px 10px;
-  }
-}
-@media (max-width: 800px) {
-  .main-section {
-    flex-direction: column;
-    padding: 40px;
+    padding: 30px 5px;
   }
   .main-section > div {
-    width: 100%;
+    padding: 5px;
   }
 }
+
 .show-nav {
   width: 60vw;
   z-index: 1;
@@ -297,4 +305,25 @@ p {
 }
 .bg-light-dark {
   background-color: var(--light-dark);
+}
+/* scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
